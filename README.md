@@ -10,7 +10,7 @@ The primary goal of this project is to build a predictive model that can forecas
 
 Files Included:
 
-- `Innovate_Project.ipynb`: The main Jupyter Notebook containing the analysis and predictive modeling code.
+- `predictive_analytics.ipynb`: The main Jupyter Notebook containing the analysis and predictive modeling code.
 - `customers-1000.csv`: The dataset used for analysis and model training.
 
 About the dataset:
@@ -30,18 +30,18 @@ pip install pandas matplotlib seaborn numpy scikit-learn
 2. Load the Dataset
 
 1. Download and extract the zip file containing this README, the Jupyter Notebook, and the dataset file.
-2. Place the dataset file (`customers-1000.csv`) in the same directory as the Jupyter Notebook (`notebook.ipynb`).
+2. Place the dataset file (`customers-1000.csv`) in the same directory as the Jupyter Notebook (`predictive_analytics.ipynb`).
 
 3. Run the Notebook
 
-1. Open the Jupyter Notebook (`notebook.ipynb`) in Jupyter Lab or Jupyter Notebook.
+1. Open the Jupyter Notebook (`predictive_analytics.ipynb`) in Jupyter Lab or Jupyter Notebook.
 2. Execute the cells sequentially to load, analyze, and model the dataset.
 
 4. Data Analysis and Visualization
 
 - Histogram of Subscription Dates: Shows the distribution of subscription dates.
 - Bar Chart of Customer Counts by City: Displays a count of customers in each city (sampled).
-- Scatter Plot of Subscription Date vs. Company: Illustrates the relationship between subscription dates and company names (this may not be very informative due to the nature of the data).
+- Scatter Plot of Subscription Date vs. Company: Illustrates the relationship between subscription dates and company names .
 - Pie Chart of Customer Distribution by Country: Visualizes the distribution of customers across different countries (sampled).
 
 5. Feature Engineering and Modeling
@@ -56,7 +56,7 @@ Modeling:
 
 6. Results
 
-- The notebook evaluates the model's performance using accuracy, precision, recall, and F1-score.
+- The predictive_analytics evaluates the model's performance using accuracy, precision, recall, and F1-score.
 - Cross-validation is performed to ensure the model's robustness.
 
 Notes:
